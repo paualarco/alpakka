@@ -11,6 +11,7 @@ before_install:
 # default script for jobs, that do not have any specified
 script: ./scripts/travis.sh
 
+
 jobs:
   include:
     - stage: check
